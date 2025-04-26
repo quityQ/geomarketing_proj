@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="Ayberk Bicici" projectname="" saveDateTime="2025-04-26T15:39:02" saveUser="bicic" version="3.34.10-Prizren">
+<qgis saveUserFull="Ayberk Bicici" projectname="" saveDateTime="2025-04-26T15:38:47" saveUser="bicic" version="3.34.10-Prizren">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -27,7 +27,7 @@
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer legend_split_behavior="0" legend_exp="" id="Dissolved_004fb827_a92d_41a1_8664_fc7b9ed64970" name="Dissolved" providerKey="ogr" source="../../dissolved.gpkg|layername=dissolved" checked="Qt::Checked" expanded="1" patch_size="-1,-1">
+    <layer-tree-layer legend_split_behavior="0" legend_exp="" id="Dissolved_004fb827_a92d_41a1_8664_fc7b9ed64970" name="Dissolved" providerKey="memory" source="MultiPolygon?crs=EPSG:2056&amp;field=fid:long(0,0)&amp;field=id:string(0,0)&amp;field=name:string(0,0)&amp;field=type:string(0,0)&amp;field=slug:string(0,0)&amp;field=address:string(0,0)&amp;field=address2:string(0,0)&amp;field=zip:string(0,0)&amp;field=city:string(0,0)&amp;field=country:string(0,0)&amp;field=logo:string(0,0)&amp;field=logo_alt_text:map(0,0)&amp;field=buffer_dist:integer(0,0)&amp;field=buffer_dist2:integer(0,0)&amp;uid={89ef71bb-092d-480f-a7ed-1f65dd79887f}" checked="Qt::Checked" expanded="1" patch_size="-1,-1">
       <customproperties>
         <Option/>
       </customproperties>
@@ -7941,7 +7941,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>47.76021147473852579</ymax>
       </wgs84extent>
       <id>Dissolved_004fb827_a92d_41a1_8664_fc7b9ed64970</id>
-      <datasource>../../dissolved.gpkg|layername=dissolved</datasource>
+      <datasource>memory?geometry=MultiPolygon&amp;crs=EPSG:2056&amp;field=fid:int8(0,0)&amp;field=id:string(0,0)&amp;field=name:string(0,0)&amp;field=type:string(0,0)&amp;field=slug:string(0,0)&amp;field=address:string(0,0)&amp;field=address2:string(0,0)&amp;field=zip:string(0,0)&amp;field=city:string(0,0)&amp;field=country:string(0,0)&amp;field=logo:string(0,0)&amp;field=logo_alt_text:map(0,0)&amp;field=buffer_dist:integer(0,0)&amp;field=buffer_dist2:integer(0,0)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -7963,7 +7963,7 @@ def my_form_open(dialog, layer, feature):
         <identifier></identifier>
         <parentidentifier></parentidentifier>
         <language></language>
-        <type>dataset</type>
+        <type></type>
         <title></title>
         <abstract></abstract>
         <links/>
@@ -7972,20 +7972,20 @@ def my_form_open(dialog, layer, feature):
         <encoding></encoding>
         <crs>
           <spatialrefsys nativeFormat="Wkt">
-            <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (large and medium scale)."],AREA["Liechtenstein; Switzerland."],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
-            <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
-            <srsid>47</srsid>
-            <srid>2056</srid>
-            <authid>EPSG:2056</authid>
-            <description>CH1903+ / LV95</description>
-            <projectionacronym>somerc</projectionacronym>
-            <ellipsoidacronym>EPSG:7004</ellipsoidacronym>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
       </resourceMetadata>
-      <provider encoding="UTF-8">ogr</provider>
+      <provider encoding="">memory</provider>
       <vectorjoins/>
       <layerDependencies/>
       <dataDependencies/>
@@ -8344,7 +8344,7 @@ def my_form_open(dialog, layer, feature):
         <default field="buffer_dist2" applyOnUpdate="0" expression=""/>
       </defaults>
       <constraints>
-        <constraint constraints="3" unique_strength="1" field="fid" notnull_strength="1" exp_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="fid" notnull_strength="0" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" field="id" notnull_strength="0" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" field="name" notnull_strength="0" exp_strength="0"/>
         <constraint constraints="0" unique_strength="0" field="type" notnull_strength="0" exp_strength="0"/>
